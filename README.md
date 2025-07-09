@@ -4,18 +4,18 @@ Una API completa para una tienda en línea con autenticación JWT, gestión de u
 
 ## 🌟 Características
 
-- ✅ **Autenticación JWT** con registro e inicio de sesión
-- ✅ **Documentación Swagger** interactiva con aplicación automática de tokens
-- ✅ **Gestión de usuarios** autenticados con roles
-- ✅ **Catálogo de productos** con filtros avanzados, búsqueda y paginación
-- ✅ **Sistema de órdenes** con dirección de envío y múltiples productos
-- ✅ **Control de stock** automático y validación de inventario
-- ✅ **Estructura modular** y escalable
-- ✅ **Validación completa** de datos con express-validator
-- ✅ **Manejo de errores** estructurado
-- ✅ **Base de datos MongoDB** con Mongoose y índices optimizados
-- ✅ **Filtros avanzados** por categoría, precio, búsqueda de texto
-- ✅ **Middleware de autenticación** para rutas protegidas
+-  **Autenticación JWT** con registro e inicio de sesión
+-  **Documentación Swagger** interactiva con aplicación automática de tokens
+-  **Gestión de usuarios** autenticados con roles
+-  **Catálogo de productos** con filtros avanzados, búsqueda y paginación
+-  **Sistema de órdenes** con dirección de envío y múltiples productos
+-  **Control de stock** automático y validación de inventario
+-  **Estructura modular** y escalable
+-  **Validación completa** de datos con express-validator
+-  **Manejo de errores** estructurado
+-  **Base de datos MongoDB** con Mongoose y índices optimizados
+-  **Filtros avanzados** por categoría, precio, búsqueda de texto
+-  **Middleware de autenticación** para rutas protegidas
 
 ## 🛠️ **Tecnologías**
 
@@ -332,22 +332,22 @@ project/
 ## 🔐 Seguridad
 
 ### **Autenticación y Autorización**
-- 🔒 **Contraseñas seguras**: Hasheadas con bcryptjs antes de almacenar
-- 🎫 **JWT Tokens**: Con expiración configurable (default: 24h)
-- 🛡️ **Middleware de protección**: Validación automática en rutas sensibles
-- 👥 **Control de usuarios**: Estados activo/inactivo
-- 🔑 **Roles de usuario**: Sistema preparado para `user`/`admin`
+-  **Contraseñas seguras**: Hasheadas con bcryptjs antes de almacenar
+-  **JWT Tokens**: Con expiración configurable (default: 24h)
+-  **Middleware de protección**: Validación automática en rutas sensibles
+-  **Control de usuarios**: Estados activo/inactivo
+-  **Roles de usuario**: Sistema preparado para `user`/`admin`
 
 ### **Validaciones y Filtros**
-- ✅ **express-validator**: Validación completa de datos de entrada
-- 🚫 **Sanitización**: Limpieza automática de datos
-- 📧 **Normalización**: Emails en formato estándar
-- 🔍 **Validación de ObjectIDs**: Para referencias de MongoDB
+-  **express-validator**: Validación completa de datos de entrada
+-  **Sanitización**: Limpieza automática de datos
+-  **Normalización**: Emails en formato estándar
+-  **Validación de ObjectIDs**: Para referencias de MongoDB
 
 ### **Protección de Datos**
-- 🗄️ **Estados de recursos**: Productos/usuarios activos vs inactivos
-- 📊 **Control de stock**: Prevención de órdenes sin inventario
-- 🌐 **CORS configurado**: Políticas de acceso por dominio
+-  **Estados de recursos**: Productos/usuarios activos vs inactivos
+-  **Control de stock**: Prevención de órdenes sin inventario
+-  **CORS configurado**: Políticas de acceso por dominio
 
 ## 🧪 Pruebas de la API
 
@@ -439,13 +439,13 @@ La forma más fácil de probar la API es usando la **documentación interactiva*
 
 ## 📋 Códigos de Estado HTTP
 
-- `200` - ✅ Éxito
-- `201` - ✅ Creado exitosamente
-- `400` - ❌ Solicitud incorrecta (datos inválidos)
-- `401` - 🔒 No autorizado (token inválido/faltante)
-- `403` - 🚫 Prohibido (sin permisos)
-- `404` - 🔍 No encontrado
-- `500` - ⚠️ Error interno del servidor
+- `200` -  Éxito
+- `201` -  Creado exitosamente
+- `400` -  Solicitud incorrecta (datos inválidos)
+- `401` -  No autorizado (token inválido/faltante)
+- `403` -  Prohibido (sin permisos)
+- `404` -  No encontrado
+- `500` -  Error interno del servidor
 
 ---
 
